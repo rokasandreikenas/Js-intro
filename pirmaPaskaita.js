@@ -20,10 +20,12 @@ let sum = first + second + third; // Sudetis
 let minus = first - second - third - first; // Atimtis
 let multiply = first * second * third; // Daugyba
 let divide = first / second / third; // Dalyba
+let percentage = 2 % 2;
 
 // String - stringai
 // string + string = string;
 const text = "Rokas yra geras zmogus - ";
+const newTest = "rokas and";
 let title = "Siandien yra grazi diena";
 let du = "2";
 let trys = "3";
@@ -35,10 +37,11 @@ const melas = false;
 
 // Masyvai - array
 let masyvas = [];
-let skaiciuMasyvas = [1, 2, 3];
+let skaiciuMasyvas = [1, 2, 3, 4, 5, 6, 7, 9];
 let stringuMasyvas = ["Rokas", "Tomas", "Romas"];
+let dalyviai = ["Rokas", "Tomas", "Bronius"];
 let booleanuMasyvas = [true, false, false];
-let randomMasyvas = [1, "rokas", false];
+let randomMasyvas = ["vardas", "rokas", "tomas", false, 5, 6];
 
 // Funkcijos
 
@@ -56,6 +59,17 @@ function sayHello(name) {
   alert("Hello " + name + "!"); // Hello Rokas!
 }
 
-const multipliedNumbers = multiplyNumbers(3, 5); // 15
+const multipliedNumber = multiplyNumbers(3, 5); // 15
+const test = multiplyNumbers();
 
-sayHello("Rokas");
+// Special types
+const undf = undefined;
+const nl = null;
+const nan = NaN;
+
+// naming conventions
+// j nelygu J
+let myName;
+let mySurname;
+let birthday = 10;
+const birthDay = 15;
