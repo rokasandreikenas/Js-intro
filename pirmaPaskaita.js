@@ -43,6 +43,14 @@ let dalyviai = ["Rokas", "Tomas", "Bronius"];
 let booleanuMasyvas = [true, false, false];
 let randomMasyvas = ["vardas", "rokas", "tomas", false, 5, 6];
 
+// Objektas - object
+let objektas = {};
+const cat = {
+  name: "Ryzikas",
+  color: "ryzas",
+  age: 8,
+};
+
 // Funkcijos
 
 function example() {}
